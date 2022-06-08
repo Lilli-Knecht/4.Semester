@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+}
+
+div {
+    overflow-x: auto;
+}
+
+
+td { 
+    display: list-item; 
+} 
+
+
+
+table, th, td {
+    border: 1px solid;
+}
+
+
+
+
+  
