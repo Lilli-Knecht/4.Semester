@@ -88,19 +88,26 @@ figure {
 }
 
 #Logo-Weiss img {
-    width: 70px;
     position: absolute;
-    top: 0;
+    width: 70px;
+    top: 10px;
+    left: 47%; 
     z-index: 1;
+    margin: 0px auto;
+    float: left;
+    margin-left: auto;
 }
 
 #Logo-Farbe img{
-    width: 70px;
     position: absolute;
-    top: 0;
-    right: 1000px;
+    display: none;
+    width: 70px;
+    top: 10px;
+    left: 47%; 
     z-index: 1;
-    
+    margin: 0px auto;
+    float: left;
+    margin-left: auto;
 }
 
 #headbild {
@@ -125,6 +132,16 @@ figure {
 
 .BesondereMerkmale-Slider img {
     width: 260px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+
+.overButton {
+    border: none;
+    position: absolute;
 }
 
 .Galerie-Slider img {
