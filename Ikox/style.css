@@ -1,14 +1,14 @@
 body{
-    position: relative;
     margin:auto;
     font-family: 'Red Hat Text', sans-serif;
     color:rgb(112, 112, 112);
 }
 
 main {
-    position:absolute;
     width: 800px;
-    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -18,8 +18,29 @@ footer {
     color: white;
 }
 
+footer table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1, h2, h3 {
-    font-weight: lighter;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#aufmacher-Text {
+    font-weight: bold;
+}
+
+#unterüberschrift {
+    font-size: 1.5em;
 }
 
 video {
@@ -63,7 +84,8 @@ video {
 #Text {
     position: absolute;
     bottom: 40px;
-    left: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 figure {
@@ -89,7 +111,7 @@ figure {
 
 #Logo-Weiss img {
     position: absolute;
-    width: 70px;
+    width: 75px;
     top: 10px;
     left: 47%; 
     z-index: 1;
@@ -101,7 +123,7 @@ figure {
 #Logo-Farbe img{
     position: absolute;
     display: none;
-    width: 70px;
+    width: 75px;
     top: 10px;
     left: 47%; 
     z-index: 1;
@@ -146,6 +168,10 @@ figure {
 
 .Galerie-Slider img {
     width: 800px;
+}
+
+.Galerie-Slider {
+    margin: 0 !important;
 }
 
 .Varianten {
@@ -205,12 +231,70 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+    body{
+        width: 100%;
+        margin: auto;
+    }
 
+    #Logo-Weiss img {
+        width: 50px;
+    }
+    
+    #Logo-Farbe img{
+        width: 50px;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+    
+    h2~p{
+        font-size:medium;
+    }
+    
+    h3{
+        font-size: 1em;
+    }
+
+    img, video{
+        width:100%;
+    }
 }
 
 @media screen and (max-width: 599px) {
+    #Logo-Weiss img {
+        width: 30px;
+    }
     
-}
+    #Logo-Farbe img{
+        width: 30px;
+    }
+
+    video{
+        margin: 0;
+    }
+
+    div#head{
+        width: 100%;
+        height: min-content;
+        transform: translateY(0);
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+    
+    h2{
+        font-size: large;
+    }
+    
+}    
 
 
 

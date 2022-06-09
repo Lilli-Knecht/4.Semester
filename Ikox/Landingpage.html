@@ -28,7 +28,7 @@
     </header>
     
     <main>
-        <h2>
+        <h2 id="aufmacher-Text">
             OYSTER PREMIUM PLATON IV IN EDELSTAHL OYSTERSTEEL. 20 KONGRUENTE GLEICHSEITIGE DREIECKE MIT GLEICH LANGEN KANTEN ZUSAMMENTREFFEND IN 12 ECKPUNKTEN.
         </h2>
         <p>
@@ -45,7 +45,7 @@
             
             <div id="Text">
                 <h2>20 KONGRUENTE GLEICHSEITIGE DREIECKE</h2>
-                <h2>FORMSCHÖN UND STILSICHER IN JEDER ERDENKLICHEN SITUATION</h2>
+                <h2 id="unterüberschrift">FORMSCHÖN UND STILSICHER IN JEDER ERDENKLICHEN SITUATION</h2>
                 <p>Die 20 kongruenten Flächen sorgen für Flexibilität bei der Positionierung und einen sicheren Stand. Die Kanten und die Eckpunkte in denen sie aufeinandertreffen sind leicht abgerundet. </p>
             </div>
         </div>
@@ -91,6 +91,15 @@
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     dots: true,
+                    responsive: [
+                        {
+                        breakpoint: 599,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        } 
+                    }
+                ]
                 });
             });
         </script>
@@ -138,10 +147,10 @@
         <h3>MEHR ZU PLATON </h3>
         <h3>TECHNISCHE DETAILS</h3>
 
-        <table>
+        <table id="Eigenschaften">
             <tr>
                 <td>GRÖSSE</td>
-                <td> MATERIAL</td>
+                <td>MATERIAL</td>
                 <td>MODI</td>
             </tr>
             <tr>
@@ -228,7 +237,7 @@
     </main>
 
     <footer>
-        <p>Sprachen</p>
+        <br>
         <table>
             <tr>
                 <td>IKOX IKOSAEDER</td>
