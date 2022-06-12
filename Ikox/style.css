@@ -46,7 +46,7 @@ video {
     margin-top: 20px;
 }
 
-.video-wrapper {
+.video_wrapper {
     display: table;
     width:auto;
     position:relative;
@@ -112,22 +112,16 @@ figure {
     font-size: 15px;
 }
 
-#Logo-Weiss img {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75px;
-    top: 10px;
+    position: relative;
+    z-index: 1000;
 }
 
-#Logo-Farbe img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+.logo img {
+    position: absolute;
     width: 75px;
     top: 10px;
 }
@@ -148,16 +142,52 @@ figure {
 
 .BesondereMerkmale-Slider img {
     width: 260px;
-    position: relative;
-    display: flex;
-    justify-content: center;
     color: white;
     font-size: 15px;
 }
 
-.overButton {
-    border: none;
+.BesondereMerkmale-Slider .modalButton_open {
+    margin: auto;
     position: absolute;
+    bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modalButton_open {
+    border: 1px solid;
+    border-radius: 100%;
+    z-index: 1000;
+    background-color:transparent;
+    color: white;
+}
+
+.modalButton_close {
+    border: 1px solid;
+    border-radius: 100%;
+    z-index: 1000;
+    background-color:transparent;
+    color: rgb(0, 96, 57);
+}
+
+.modalButton_open:hover {
+    background-color: white;
+    color:rgb(0, 96, 57);
+}
+
+.modal {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+    border: 0;
+}
+
+.modal::backdrop {
+    background: rgb(0 0 0 / .4);
 }
 
 #galerie{
