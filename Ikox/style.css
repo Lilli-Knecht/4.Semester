@@ -16,11 +16,6 @@ footer {
     background-color: rgb(33, 33, 33);
 }
 
-footer table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1, h2, h3 {
     font-weight: normal;
 }
@@ -264,23 +259,36 @@ figure {
     background-color:rgb(0, 96, 57);
 } 
 
-#Eigenschaften {
+#Eigenschaften-Tabelle {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
 }
 
-#Eigenschaften tr, #Eigenschaften td, #Eigenschaften p{
-    height: fit-content;
+.eigenschaft {
     margin-top: 4px;
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
+    width: 260px;
 }
 
-td img {
-    width: 250px;
+.eigenschaft img {
+    width: 250px; 
+
 }
 
-td {
+#dropdown {
+    display: none;
+}
+
+#footer-Tabelle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-Spalte {
     width: 260px;
 }
 
@@ -380,21 +388,17 @@ td {
     .Varianten {
         margin-bottom: 40px;
     }
-    
-    td img {
-        width: 220px;
-    }
-    
-    td {
-        width: 220px;
-    }
 
     #galerie {
         margin: 20px;
     }
 
     footer {
-        font-size: 14px; 
+        font-size: 14px;
+    }
+
+    .footer-Spalte {
+        width: 220px;
     }
 
 }
@@ -431,7 +435,7 @@ td {
     }
 
     .mainMittig {
-        width: 400px;
+        width: 390px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -441,7 +445,7 @@ td {
     }
 
     #hovBild {
-        width: 400px;
+        width: 390px;
     }
 
     #hovBild_groß {
@@ -449,7 +453,7 @@ td {
     }
 
     #hovBild_mobil { 
-        width: 400px;
+        width: 390px;
         display: flex;
     }
 
@@ -466,12 +470,12 @@ td {
     }
     
     .BesondereMerkmale-Slider img {
-        width: 400px;
+        width: 390px;
         font-size: 10px;
     }
 
     .modal {
-        max-width: 100%;
+        max-width: 390px;
         padding: 2em;
     }
 
@@ -484,12 +488,9 @@ td {
     }
 
     .Varianten img, .Varianten p{
-        width: 400px;
-        padding: 5px;
-    }
-
-    .Varianten {
-        overflow-y:scroll;
+        width: 125px;
+        padding: 3px;
+        font-size: 15px;
     }
 
     .Varianten {
@@ -497,7 +498,29 @@ td {
     }
 
     img, video, figure {
-        width:400px;
+        width: 390px;
+    }
+
+    #Eigenschaften-Tabelle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eigenschaft {
+        width: 300px;
+    }
+    
+    .eigenschaft img {
+        width: 300px; 
+    }
+
+    .eigenschaft p {
+        font-size: 15px;
+    }
+
+    #footer-Tabelle {
+        flex-direction: column;
+        margin-left: 20px;
     }
     
 }    

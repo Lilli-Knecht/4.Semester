@@ -69,4 +69,3 @@ openModal_6.addEventListener('click', () => {
 closeModal_6.addEventListener('click', () => {
     modal_6.close();
 })
-

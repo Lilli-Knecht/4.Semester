@@ -20,6 +20,7 @@
         <div id="head">
             <img id="headbild" src="Bilder/Header-Bild_.png" alt="Platon-Ikox">
             <img id="headbild_mobil" src="Bilder/Header-Bild_mobil.png" alt="Platon-Ikox">
+            <!--<img id="headbild_Nachtmodus" src="" alt=""> -->
             <div id="headText">
                 <h1>PLATON IV</h1>
                 <p>Oyster, 48 mm, Edelstahl Oystersteel <br> 9.500 € </p>
@@ -133,14 +134,14 @@
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     dots: true,
-                    repsonsive: [
+                    responsive: [
                         {
                             breakpoint: 599,
                             settings: {
                                 slidesToShow: 1,
-                                slidesToScroll: 1,
-                            },
-                        },
+                                slidesToScroll: 1
+                            }
+                        }
                     ] 
                 });
             });
@@ -151,9 +152,10 @@
         <p>Galerie</p>
         <div class="Galerie-Slider">
             <img src="Bilder/Galerie_1.png" alt="">
-            <img src="Bilder/Galerie_4.png" alt="">
+            <img src="Bilder/Galerie_2.png" alt="">
             <img src="Bilder/Galerie_3.png" alt="">
-            <img src="Bilder/Galeir_2.png" alt="">
+            <img src="Bilder/Galerie_4.png" alt="">
+            <img src="Bilder/Galerie_5.png" alt="">
         </div> 
     </div>   
 
@@ -191,64 +193,30 @@
         <h3>MEHR ZU PLATON </h3>
         <h3>TECHNISCHE DETAILS</h3>
 
-        <table id="Eigenschaften">
-            <tr>
-                <td>GRÖSSE</td>
-                <td>MATERIAL</td>
-                <td>MODI</td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="Bilder/Größe.png" alt="">
-                </td>
-                <td>
-                    <img src="Bilder/Material.png" alt="">
-                </td>
-                <td>
-                    <img src="Bilder/Ikosaeder_nachtmodus.png" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>FLÄCHEN <br> 20 gleichseitige Dreiecke</p>
-                </td>
-                <td>
-                    <p>OYSTERSTEEL <br> Korrosionsbeständiges Edelstahl Oystersteel</p>
-                </td>
-                <td>
-                    <p>TAG <br> keine Beleuchtung </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>KANTEN <br> 30 gleichlange Kanten</p>
-                </td>
-                <td>
-                    <p>PRÄGUNG <br> Logoprägung</p>
-                </td>
-                <td>
-                    <p>NACHT <br> Diffuses und sanftes Weißlicht</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>KANTENLÄNGE <br> 49mm</p>
-                </td>
-                <td>
-                    <p>GEWICHT <br> 190 Gramm</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>ECKPUNKTE <br> 12 Eckpunkte</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>VOLUMEN <br> 2.56674234E-7</p>
-                </td>
-            </tr>
-        </table>
+        <div id="Eigenschaften-Tabelle">
+            <div class="eigenschaft">
+                <p>GRÖSSE</p>                    
+                <img src="Bilder/Größe.png" alt="">
+                <p>FLÄCHEN <br> 20 gleichseitige Dreiecke</p>
+                <p>KANTEN <br> 30 gleichlange Kanten</p>
+                <p>KANTENLÄNGE <br> 49mm</p>
+                <p>ECKPUNKTE <br> 12 Eckpunkte</p>
+                <p>VOLUMEN <br> 2.56674234E-7</p> 
+            </div>
+            <div class="eigenschaft">
+                <p>MATERIAL</p>
+                <img src="Bilder/Material.png" alt="">
+                <p>OYSTERSTEEL<br> Korrosionsbeständiges Edelstahl Oystersteel</p>
+                <p>PRÄGUNG <br> Logoprägung</p>
+                <p>GEWICHT <br> 190 Gramm</p>
+            </div>
+            <div class="eigenschaft">
+                <p>Modi</p>
+                <img src="Bilder/Ikosaeder_nachtmodus.png" alt="">
+                <p>TAG <br> keine Beleuchtung</p>
+                <p>NACHT <br> Di􀄠uses und san􀄡es Weißlicht</p>
+            </div>
+        </div>
 
         <div class="video_wrapper">
             <video autobuffer controls>
@@ -282,52 +250,33 @@
 
     <footer>
         <br>
-        <table>
-            <tr>
-                <td>IKOX IKOSAEDER</td>
-                <td>DIE KOLLEKTIONEN</td>
-                <td>UNSERE KANÄLE</td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Ikox Ikosaeder <br> Neue Modelle <br> Gestalten Sie Ihren Ikosaeder</p>
-                </td>
-                <td>
-                    <p>Delta <br> Euler <br> Platon <br> Dodecan <br> Oktanon <br> Ikon</p>
-                </td>
-                <td>
-                    <p>Facebook <br> Instagram <br> Twitter <br> YouTube <br> Pinterest <br> LinkedIn <br> Youku <br> WeChat <br> Weibo</p>
-                </td>
-            </tr>
-            <tr>
-                <td>DIE WELT VON IKOX</td>
-                <td></td>
-                <td>DIE RECHTLICHE HINWEISE</td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Livestyle <br> Kunst und Kultur <br> Forschung und Wissenschaft</p>
-                </td>
-                <td></td>
-                <td>
-                    <p>Nutzungsbedingungen <br> Datenschutzhinweise <br> Cookies</p>
-                </td>
-            </tr>
-            <tr>
-                <td>SERVICE</td>
-                <td></td>
-                <td>MEDIEN</td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Kauf eines Ikox <br> Fachhändlersuche <br> Handhabung und Wartung Ihrer Ikosaeder <br> Häufig gestellte Fragen (FAQ)</p>
-                </td>
-                <td></td>
-                <td>
-                    <p>Broschüren <br> Bedienungsanleitungen</p>
-                </td>
-            </tr>
-        </table>
+        <div id="footer-Tabelle">
+            <div class="footer-Spalte">
+                <p>IKOX IKOSAEDER</p>
+                <p>Ikox Ikosaeder <br> Neue Modelle <br> Gestalten Sie Ihren Ikosaeder</p>
+                <br>
+                <p>DIE WELT VON IKOX</p>
+                <p>Livestyle <br> Kunst und Kultur <br> Forschung und Wissenschaft</p>
+                <br>
+                <p>SERVICE</p>
+                <p>Kauf eines Ikox <br> Fachhändlersuche <br> Handhabung und Wartung Ihrer Ikosaeder <br> Häufig gestellte Fragen (FAQ)</p>
+            </div>
+            <div class="footer-Spalte">
+                <p>DIE KOLLEKTIONEN</p>
+                <p>Delta <br> Euler <br> Platon <br> Dodecan <br> Oktanon <br> Ikon</p>
+            </div>
+            <div class="footer-Spalte">
+                <p>UNSERE KANÄLE</p>
+                <p>Facebook <br> Instagram <br> Twitter <br> YouTube <br> Pinterest <br> LinkedIn <br> Youku <br> WeChat <br> Weibo</p>
+                <br>
+                <p>DIE RECHTLICHE HINWEISE</p>
+                <p>Nutzungsbedingungen <br> Datenschutzhinweise <br> Cookies</p>
+                <br>
+                <p>MEDIEN</p>
+                <p>Broschüren <br> Bedienungsanleitungen</p>
+            </div>
+
+        </div>
     </footer>
     
 </body>
