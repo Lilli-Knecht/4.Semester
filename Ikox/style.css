@@ -533,10 +533,13 @@ header {
         margin: 10px;
     }
 
-    .Varianten img, .Varianten p{
-        width: 125px;
+    .Varianten p{
         padding: 3px;
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .Varianten img {
+        width: 95%;
     }
 
     .Varianten {
