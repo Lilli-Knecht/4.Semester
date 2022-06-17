@@ -128,7 +128,7 @@ figure {
     top: 10px;
 }
 
-#headbild {
+#headbildTag {
     width: 100%;
     height: fit-content;
     position: relative;
@@ -144,6 +144,35 @@ figure {
     position: absolute;
     bottom: 8px;
     left: 40px;
+}
+
+#modiTag {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin:10px;
+}
+
+#modiTag img {
+    height: 30px;
+}
+
+#modiNacht {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin:10px;
+}
+
+#modiNacht img {
+    height: 30px;
+}
+
+#modiButtons {
+    display: flex;
+    justify-content: center;
 }
 
 .BesondereMerkmale-Slider p {
@@ -366,7 +395,7 @@ figure {
         font-size: 15px;
     }
 
-    img, video, figure {
+    video, figure {
         width:680px;
         margin-left: auto;
         margin-right: auto;
@@ -400,7 +429,6 @@ figure {
     .footer-Spalte {
         width: 220px;
     }
-
 }
 
 /* Smartphone-Größe*/
@@ -413,7 +441,7 @@ figure {
         width: 65px;
     }
 
-    #headbild {
+    #headbildTag {
         display: none; 
     }
 
@@ -431,11 +459,11 @@ figure {
     }
     
     h2{
-        font-size: medium;
+        font-size: 17px;
     }
 
     .mainMittig {
-        width: 390px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -445,15 +473,23 @@ figure {
     }
 
     #hovBild {
-        width: 390px;
+        width: 90%;
+        margin-left: auto; 
+        margin-right: auto;
+        font-size: 12px;
     }
+
+    #unterüberschrift {
+        font-size: 15px;
+    }
+
 
     #hovBild_groß {
         display: none;
     }
 
     #hovBild_mobil { 
-        width: 390px;
+        width: 100%;
         display: flex;
     }
 
@@ -470,12 +506,12 @@ figure {
     }
     
     .BesondereMerkmale-Slider img {
-        width: 390px;
+        width: 90%;
         font-size: 10px;
     }
 
     .modal {
-        max-width: 390px;
+        max-width: 90%;
         padding: 2em;
     }
 
@@ -497,8 +533,8 @@ figure {
         margin-bottom: 40px;
     }
 
-    img, video, figure {
-        width: 390px;
+    figure, video {
+        width: 100%;
     }
 
     #Eigenschaften-Tabelle {
@@ -523,6 +559,9 @@ figure {
         margin-left: 20px;
     }
     
+    #modiButtons {
+        display: none;
+    }
 }    
 
 

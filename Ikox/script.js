@@ -69,3 +69,15 @@ openModal_6.addEventListener('click', () => {
 closeModal_6.addEventListener('click', () => {
     modal_6.close();
 })
+
+function tauschzuNacht(){
+    document.getElementById("headbildTag").setAttribute("src", "Bilder/Header-Bild-NACHTMODUS.png");
+    document.getElementById("Sonne").setAttribute("src", "Bilder/Sonne-grau.png");
+    document.getElementById("Mond").setAttribute("src", "Bilder/Mond-grün.png");
+}
+
+function tauschzuTag(){
+    document.getElementById("headbildTag").setAttribute("src", "Bilder/Header-Bild-TAGMODUS.png");
+    document.getElementById("Mond").setAttribute("src", "Bilder/Mond-grau.png");
+    document.getElementById("Sonne").setAttribute("src", "Bilder/Sonne-grün.png");
+}
