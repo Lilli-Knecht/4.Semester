@@ -227,6 +227,11 @@ header {
     color:rgb(0, 96, 57);
 }
 
+.modalButton_close:hover {
+    background-color: rgb(0, 96, 57);
+    color: white;
+}
+
 .modal {
     max-width: fit-content;
     display: flex;
