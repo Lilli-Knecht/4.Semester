@@ -114,6 +114,7 @@ figure {
     position: relative;
     color: white;
     font-size: 15px;
+    height: fit-content;
 }
 
 .logo {
@@ -250,7 +251,7 @@ header {
 }
 
 .Varianten img, .Varianten p{
-    width: 250px;
+    width: 95%;
     padding: 5px;
 }
 
@@ -268,7 +269,7 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
-    margin: 20px;
+    margin-top:20px;
     margin-bottom: 50px;
 }
 
@@ -281,7 +282,7 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
-    margin: 20px;
+    margin-top:20px;
     margin-bottom: 50px;
 }
 
@@ -299,16 +300,17 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin: 0;
 }
 
 .eigenschaft {
     margin-top: 4px;
     margin-bottom: 4px;
-    width: 260px;
+    width: 90%;
 }
 
 .eigenschaft img {
-    width: 250px; 
+    width: 90%; 
 
 }
 
@@ -415,10 +417,9 @@ header {
     .BesondereMerkmale-Slider p {
         font-size: 15px;
     }
-    
-    .Varianten img, .Varianten p{
-        width: 220px;
-        padding: 5px;
+
+    .Varianten p {
+        font-size: 15px;
     }
 
     .Varianten {
