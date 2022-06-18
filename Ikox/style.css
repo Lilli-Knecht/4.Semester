@@ -369,7 +369,7 @@ header {
         font-size: 1em;
     }
 
-    img, video{
+    video{
         width:100%;
     }
 }
